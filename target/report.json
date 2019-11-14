@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 922333,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "HooksClass.getbrow()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To validate the login page with valid",
+        "description": "",
+        "id": "login-page;to-validate-the-login-page-with-valid",
+        "after": [
+          {
+            "result": {
+              "duration": 15396,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "HooksClass.closep()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User has to enter the usermane and password to validte",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "immanuel",
+                  "4512sds"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26592,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User logging into homepage",
+            "match": {
+              "location": "LoginStepsDef.user_logging_into_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login page",
+    "description": "Given User in the home page",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
